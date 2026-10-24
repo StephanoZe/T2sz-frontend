@@ -1,0 +1,74 @@
+.contenedor {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #1f3a5f;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th, td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #1f3a5f;
+  color: white;
+}
+
+tr:hover td {
+  background: #f5f7fa;
+}
+
+.badge {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.regular {
+  background: #d4edda;
+  color: #155724;
+}
+
+.riesgo {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.btn-eliminar {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background: #b02a37;
+  }
+}
+
+.error {
+  background: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #f5c6cb;
+}
+
+.vacio {
+  text-align: center;
+  color: #777;
+}
